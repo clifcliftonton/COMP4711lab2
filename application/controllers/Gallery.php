@@ -10,9 +10,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * Description of Gallery
  * @author Derrick
  */
-class Gallery extends CI_Controller {
+class Gallery extends Application {
     public function index()
 	{
-		$this->load->view('gallery');
+		//$this->load->view('gallery');
+                $this->data['pagebody'] = 'gallery';
+                $this->render(); 
 	}
 }
