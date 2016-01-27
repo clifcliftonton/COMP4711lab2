@@ -30,7 +30,7 @@
                 
             </div>
             <div id="footer" class="span12">
-                Copyright &copy; 2014,  <a href="mailto:someone@somewhere.com">Me</a>.
+                Copyright &copy; 2016,  <a href="mailto:someone@somewhere.com">Me</a>.
             </div>
         </div>
         <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script> 
