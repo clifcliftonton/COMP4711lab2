@@ -19,8 +19,8 @@ class Application extends CI_Controller {
      * Establish view parameters 
      */
     
-    function _construct() {
-        parent::_construct();
+    function __construct() {
+        parent::__construct();
         $this->data = array();
         $this->data['pagetitle'] = 'Sample Image Gallery';
     }
